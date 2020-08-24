@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+header{
+    background-color: whitesmoke;
+    padding: 5px;
+    background-size: 100%;
+}
+@media (max-width: 110px) {
+    header{
+        min-width: 110px
+    }
+}
